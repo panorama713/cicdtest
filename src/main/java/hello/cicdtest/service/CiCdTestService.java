@@ -7,4 +7,8 @@ public class CiCdTestService {
     public String test() {
         return "test";
     }
+
+    public String webHookTest() {
+        return "webHookTest";
+    }
 }

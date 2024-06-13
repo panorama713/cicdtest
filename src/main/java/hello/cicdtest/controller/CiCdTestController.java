@@ -15,4 +15,9 @@ public class CiCdTestController {
     public String getTest(){
         return ciCdTestService.test();
     }
+
+    @GetMapping("/web-hook-test")
+    public String getWebHookTest(){
+        return ciCdTestService.webHookTest();
+    }
 }
