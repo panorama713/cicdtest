@@ -9,6 +9,6 @@ public class CiCdTestService {
     }
 
     public String webHookTest() {
-        return "webHookTest2";
+        return "webHookTest";
     }
 }
